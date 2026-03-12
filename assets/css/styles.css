@@ -19,6 +19,14 @@ body {
 	box-shadow: 0 6px 18px rgba(36,59,85,0.06);
 }
 
+.profile-photo {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;    
+  flex-shrink: 0;       
+  border-radius: 4px;  
+}
+
 h1, h2, h3 {
 	font-family: 'Merriweather', Georgia, serif;
 	color: #1f3b5a;
